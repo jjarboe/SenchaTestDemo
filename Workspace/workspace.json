@@ -13,7 +13,22 @@
     },
     "tests": {
         "browser": {
-            "farms": []
+            "farms": [
+                {
+                    "name": "webdriver",
+                    "type": "generic",
+                    "autoStartTunnel": false,
+                    "host": "ubu-svr",
+                    "port": 4444,
+                    "sessionLimit": 1,
+                    "pools": [
+                        {
+                            "name": "webdriver-pool",
+                            "path": "webdriver-pool.json"
+                        }
+                    ]
+                }
+            ]
         },
         "archiveRoot": "/senchatest/demo/1.0.0",
         "archiveServer": "http://cdn.sencha.com"
