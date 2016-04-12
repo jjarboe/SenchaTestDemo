@@ -8,7 +8,7 @@
     {
         "chunks": 1,
         "browserName": "firefox",
-        "platform": "Windows 7",
+        "platform": null,
         "version": null
     }
 ]
