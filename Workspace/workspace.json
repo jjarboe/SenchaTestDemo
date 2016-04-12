@@ -30,7 +30,7 @@
                 }
             ]
         },
-        "archiveRoot": "/senchatest/demo/1.0.0",
-        "archiveServer": "http://cdn.sencha.com"
+        "archiveRoot": "/archiveservere2e",
+        "archiveServer": "http://ubu-svr:1903"
     }
 }
