@@ -30,7 +30,7 @@
                 }
             ]
         },
-        "archiveRoot": "/archiveservere2e",
+        "archiveRoot": "/archive-e2e",
         "archiveServer": "http://ubu-svr:1903"
     }
 }
