@@ -8,3 +8,7 @@ BASEDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $BASEDIR/Workspace
 python update-ext.py 6.0.3.21 ext
+
+if [ -d /opt/Sencha -a ! -e "$HOME/bin" ]; then
+    ln -s /opt "$HOME/bin"
+fi
